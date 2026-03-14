@@ -1,5 +1,7 @@
 /* This file contains initial configurations */
 
+@import url("variables.css");
+
 *,
 *::before,
 *::after {
@@ -25,9 +27,11 @@ dd {
 }
 
 body {
-  padding-top: 80px;
+  margin: 0 auto;
   font-family: sans-serif;
+  line-height: 1.6;
 }
+
 
 ul,
 ol {
@@ -38,8 +42,20 @@ ol {
 a {
   text-decoration: none;
   color: inherit;
+
+}
+
+a:hover {
+  transform: scaleY(1.1) translateY(-5px);
+  color: goldenrod;
+  box-shadow: 0 8px 20px rgba(255, 223, 142, 0.6);
+  border-color: transparent;
 }
 
 html {
   scroll-behavior: smooth;
+}
+
+p {
+  color: gray;
 }

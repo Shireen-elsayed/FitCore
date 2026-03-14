@@ -19,7 +19,7 @@
   --fz-35: 35px;
   --fz-36: 36px;
   --fz-40: 40px;
-  --fz-48: 48px;
+  --fz-50: 50px;
   --fz-60: 60px;
   --fz-72: 72px;
   --fw-400: 400;
@@ -36,10 +36,17 @@
   --color-gray-medium: #4a5565;
   --color-gray-dark: #444;
   --color-border: #e5e7eb;
+
   --color-red: red;
+  --color-blue: #DBEAFE;
+  --color-green:#ECFDF5;
+  --color-purple: #FAF5FF;
+  --color-blue-border: #155DFC;
+  --color-green-border: #009966;
+  --color-purple-border: #9810FA;
   --shadow-light: 0 10px 20px rgba(0, 0, 0, 0.08);
   --shadow-hover: 0 5px 10px rgba(0, 0, 0, 0.4);
-  --red: #e02020;
+  --red: #0b0f75;
   --red-light: #fdecea;
   --red-mid: #fbbfbf;
   --dark: #1a1a1a;
